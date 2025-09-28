@@ -88,7 +88,7 @@ RUN cargo install bestool --no-default-features \
   -F file \
   -F tamanu
 
-FROM ubuntu AS toolbox
+FROM ubuntu:24.10 AS toolbox
 RUN apt update && apt install -y --no-install-recommends \
   age \
   ca-certificates \
