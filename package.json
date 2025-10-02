@@ -89,7 +89,7 @@
     "concurrently": "^8.2.2",
     "config": "^3.3.9",
     "jsbarcode": "^3.11.6",
-    "patch-package": "^8.0.0",
+    "patch-package": "^8.0.1",
     "pm2": "^4.5.0"
   },
   "overrides": {
